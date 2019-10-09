@@ -1,0 +1,111 @@
+html {
+    background: black;
+}
+
+body {
+    background: white;
+    margin: 0 20vw;
+}
+
+nav {
+    background: gray;
+    height: 5vh;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.company{
+    font-size: 1.5rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    margin: 10px;
+    font-size: 15px;
+}
+
+header {
+    background: black;
+    height: 35vh;
+    color: rgb(232,223,115);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-family: Arial Narrow, Impact;
+    font-weight: bold;
+}
+
+main {
+    margin: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: white;
+}
+
+#section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.green {
+    height: 27vh;
+    width: 27vh;
+    background:  rgb(184, 252, 217);
+    /* margin: 10px; */
+    border-radius: 10%;
+}
+
+#section2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.orange {
+    height: 27vh;
+    width: 47vh;
+    background: rgb(246,196,122);
+}
+
+#section3 {
+    display: flex;
+    /* margin: 5vh; */
+    justify-content: space-between;
+    margin: 0;
+}
+
+img {
+    height: 150px;
+    width: 225px;
+    margin: 3vh 12vh;
+}
+
+#text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5vh;
+    text-align: justify;
+}
+
+footer {
+    background: rgb(58,58,84);
+    height: 10vh;
+}
+
+section {
+    /* border: solid black; */
+    margin: 0 0 4vh 0;
+}
